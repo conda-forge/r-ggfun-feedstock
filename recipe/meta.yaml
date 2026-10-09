@@ -1,4 +1,4 @@
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggfun_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggfun/ggfun_{{ version }}.tar.gz
-  sha256: 9198f5cd18fc4b9fbd43472264768117336131dac70fa535ae83e45b0a83c118
+  sha256: 46cc6162ff9683d9d43e495b7f145231e35a7af1602b45884ab7da045e823385
 
 build:
   number: 0
